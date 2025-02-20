@@ -5,7 +5,7 @@ jobs:
   build-armbian:
     runs-on: ubuntu-latest
     steps:
-      - uses: armbian/buildv25.5.0-trunk.67@main
+      - uses: armbian/build@v25.5.0-trunk.67
         with:
           armbian_token:     "${{ secrets.GITHUB_TOKEN }}"  # GitHub token
           armbian_release:   "bookworm"                        # userspace
