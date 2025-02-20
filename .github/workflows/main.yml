@@ -10,4 +10,4 @@ jobs:
           armbian_token:     "${{ secrets.GITHUB_TOKEN }}"  # GitHub token
           armbian_release:   "bookworm"                        # userspace
           armbian_target:    "build"                        # build=image, kernel=kernel
-          armbian_board:     "orangepipc"                   # build target
+          armbian_board:     "orangepiprime"                   # build target
